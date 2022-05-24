@@ -23,17 +23,17 @@ document.addEventListener("keypress", function(event) {
 
 function makeSound(key) {
     switch (key) {
-        case "z":
+        case "a":
             const tom1 = new Audio("sounds/tom-1.mp3");
             tom1.play();
             break;
 
-        case "x":
+        case "s":
         const tom2 = new Audio("sounds/tom-2.mp3")
         tom2.play();
         break
 
-        case "c":
+        case "d":
         const tom3 = new Audio("sounds/tom-3.mp3")
         tom3.play();
         break
