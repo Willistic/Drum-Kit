@@ -33,7 +33,7 @@ function makeSound(key) {
         tom2.play();
         break
 
-        case "d":
+        case "c":
         const tom3 = new Audio("sounds/tom-3.mp3")
         tom3.play();
         break
